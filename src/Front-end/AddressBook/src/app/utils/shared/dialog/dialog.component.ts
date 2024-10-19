@@ -1,4 +1,3 @@
-import { ContactService } from './../../services/contact.service';
 import { Contact } from './../../interfaces/contact.interface';
 import { Component, Inject } from '@angular/core';
 import {
@@ -9,7 +8,7 @@ import {
   MatDialogRef,
   MatDialogTitle,
 } from '@angular/material/dialog';
-import { MatFormFieldControl, MatFormFieldModule } from '@angular/material/form-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
