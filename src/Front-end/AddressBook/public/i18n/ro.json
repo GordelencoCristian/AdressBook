@@ -1,0 +1,22 @@
+{
+  "dashbord": {
+    "address-book": "Carte de notite",
+    "contacts": "Contacte"
+  },
+  "demo": {
+    "title": "Titlu"
+  },
+  "nav": {
+    "English": "Engleză",
+    "Romanian": "Română"
+  },
+  "table": {
+    "no": "Nr.",
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "phoneNumber": "Număr de telefon",
+    "email": "Email",
+    "address": "Adresă",
+    "action": "Acțiune"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "dashbord": {
+        "address-book" : "Address Book",
+        "contacts" : "Contacts"
+    },
+    "demo": {
+        "title" : "Title"
+    },
+    "nav": {
+        "English" : "English",
+        "Romanian" : "Romanian"
+    },
+    "table" : {
+      "no" : "No",
+      "firstName" : "First name",
+      "lastName" : "Last name",
+      "phoneNumber" : "Phone number",
+      "email" : "Email",
+      "address" : "Address",
+      "action" : "Action"
+    }
+}

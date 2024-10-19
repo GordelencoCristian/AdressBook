@@ -1,0 +1,12 @@
+<h2 mat-dialog-title>{{ contact.firstName }} {{ contact.lastName }}</h2>
+<mat-dialog-content>
+  @if (loading) {
+  <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  } @else {
+    <h6>{{ 'table.address' | translate }}</h6>
+    <p>{{ contact.address }}</p>
+  }
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="onClose()" cdkFocusInitial>Ok</button>
+</mat-dialog-actions>

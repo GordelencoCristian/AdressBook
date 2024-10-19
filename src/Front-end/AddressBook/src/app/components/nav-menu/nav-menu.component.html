@@ -1,0 +1,7 @@
+<mat-toolbar color="primary">
+  <span>{{ 'dashbord.address-book' | translate }}</span>
+    <a [routerLink]="['/contacts']" mat-button style="color: white;">{{ 'dashbord.contacts' | translate }}</a>
+    <div class="spacer"></div>
+  <button mat-button (click)="useLanguage('ro')" cdkFocusInitial>Romanian</button>
+  <button mat-button (click)="useLanguage('en')" cdkFocusInitial>English</button>
+</mat-toolbar>
